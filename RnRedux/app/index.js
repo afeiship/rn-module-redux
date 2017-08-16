@@ -1,4 +1,4 @@
-import ReduxAppBase from './react-redux/redux-app-base';
+import {ReduxAppBase} from 'react-native-redux-boot';
 import Main from './main';
 import {View} from 'react-native';
 import React from 'react';
@@ -8,7 +8,7 @@ export default class extends ReduxAppBase {
     static initialState() {
         return {
             memory: {
-                test:100,
+                test: 100,
                 initialData: {
                     tes: 123,
                     age: 100,
